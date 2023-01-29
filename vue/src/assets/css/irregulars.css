@@ -1,0 +1,134 @@
+.pointer {
+  cursor: pointer;
+}
+.grab {
+  cursor: grab;
+}
+.default {
+  cursor: default;
+}
+.oval {
+  border-radius: 10px;
+}
+.block {
+  display: block;
+}
+.opacity {
+  opacity: .3;
+}
+.transparent {
+  opacity: 0;
+}
+.disabled {
+  opacity: .5;
+  pointer-events: none;
+}
+.shadow {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, .08);
+  transition: .5s;
+}
+.softShadow {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, .04);
+  transition: .5s;
+}
+.scrollShadow {
+  box-shadow: 0 25px 20px -25px rgba(0, 0, 0, .1);
+  transition: .5s;
+}
+.blur {
+  background: rgba(255,255,255,0.1);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.transition {
+  transition: .3s;
+}
+.centered {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.idx1 {
+  z-index: 0;
+}
+.idx2 {
+  z-index: 2;
+}
+.idx3 {
+  z-index: 3;
+}
+.idx4 {
+  z-index: 4;
+}
+.idx5 {
+  z-index: 5;
+}
+.idx6 {
+  z-index: 6;
+}
+.idx7 {
+  z-index: 7;
+}
+
+
+/* Track */
+.no-bar::-webkit-scrollbar {
+  display: none;
+}
+.custom-sb::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+.custom-sb::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.custom-sb::-webkit-scrollbar-thumb {
+  background: #555555;
+}
+
+/* Handle on hover */
+.custom-sb::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+/* text */
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* position */
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+
+/* scroll */
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-y {
+  overflow-y: scroll;
+}
+.overflow-x {
+  overflow-x: scroll;
+}

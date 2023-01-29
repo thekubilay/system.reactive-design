@@ -1,0 +1,35 @@
+{
+  "name": "vue",
+  "version": "0.1.0",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "kill": "kill -9 $(lsof -ti:8000)"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "mitt": "^3.0.0",
+    "pdfmake": "^0.2.4",
+    "primeicons": "^5.0.0",
+    "primevue": "^3.9.1",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0",
+    "webpack-bundle-tracker": "^0.4.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "axios": "^0.24.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

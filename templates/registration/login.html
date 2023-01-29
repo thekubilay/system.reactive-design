@@ -1,0 +1,26 @@
+{% extends 'auth.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+{% block content %}
+    <div class="row">
+        <h1 class="title">Reactive Design Sys.</h1>
+{#        <div class="providers">#}
+{#            <a href="http://localhost:8000/accounts/asana/login/" id="asana" class="flex justify-center provider">#}
+{#                <img src="{% static "images/asana.png" %}" alt="asana logo">#}
+{#                <span>ASANAでログインする</span>#}
+{#            </a>#}
+{#        </div>#}
+{#        <div class="flex align-center justify-center divider">#}
+{#            <div class="line"></div>#}
+{#            <p>or</p>#}
+{#        </div>#}
+        <div class="form-container">
+            <form method="POST">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <button type="submit" class="btn--login">ログイン</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

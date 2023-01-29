@@ -1,0 +1,40 @@
+
+form .row {
+  margin-bottom: 14px;
+}
+form .p-inputnumber,
+form .p-inputtext {
+  border-radius: 0;
+  font-size: .9rem;
+}
+form input {
+  height: 38px;
+  width: 100%;
+  font-size: .9rem;
+}
+
+
+/* deep */
+
+form .row .input-wrapper label {
+  margin-bottom: 4px;
+  font-size: .8rem;
+}
+
+
+/* form footer */
+.form-footer {
+
+}
+.form-footer button {
+  width: 100px !important;
+  height: 40px;
+}
+.form-footer button.submit {
+  background-color: #6366F1;
+  color: #f1f1f1;
+}
+.form-footer button.cancel {
+  background-color: #dcdde1;
+  color: #555555;
+}
